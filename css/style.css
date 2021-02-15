@@ -47,10 +47,7 @@ li {
     left: 50px;
 }
 
-
 .head {
-    height: 100px;
-    background-color: skyblue;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -76,6 +73,7 @@ li {
     width: 60%;
     height: 500px;
     background-color: skyblue;
+    margin: 0 20px;
 }
 
 /* End Main */
