@@ -1,0 +1,88 @@
+/* reset */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start Main */
+
+body {
+    font-family: 'Montserrat';
+}
+
+.main-section-1 {
+    margin-top: 20px;
+}
+
+.logo {
+    height: 80px;
+}
+
+a:link {
+    text-decoration: none;
+}  
+
+li {
+    padding: 5px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.main-section-2 {
+    position: relative;
+    height: 500px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.banner-text {
+    color: gray;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+
+.head {
+    height: 100px;
+    background-color: skyblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.column {
+    float: left;
+}
+
+.col-left,
+.col-right {
+    width: 20%;
+    height: 500px;
+    background-color: skyblue;
+}
+
+.col-middle {
+    width: 60%;
+    height: 500px;
+    background-color: skyblue;
+}
+
+/* End Main */
+
+.last-container {
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    margin-top: 20px;
+}
